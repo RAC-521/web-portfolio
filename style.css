@@ -1,0 +1,21 @@
+body{
+    font-family: 'Prompt', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+.medium-heading{
+    color: maroon;
+}
+.name_RAC{
+    color:rgb(212, 0, 255);
+}
+.halfway{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left:3%;
+}
+.halfway img{
+    width: 100%;
+}
