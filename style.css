@@ -1,13 +1,17 @@
 body{
     font-family: 'Prompt', sans-serif;
+    margin:0;
 }
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .medium-heading{
     color: maroon;
 }
-.name_RAC{
+.name_depp{
     color:rgb(212, 0, 255);
 }
 .halfway{
@@ -18,4 +22,48 @@ h1{
 }
 .halfway img{
     width: 100%;
+}
+.top-banner{
+    height:500px;
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+    padding-bottom: 150px;
+}
+.anchor-button{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-image: linear-gradient(violet, darkviolet);
+    font-weight:500px;
+}
+.dreams{
+    height:500px;
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.last{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+}
+.single{
+    box-shadow: 10px 10px 30px gray;
+    height: 300px;
+   
+}
+
+#xpert{
+    border-left: 7px solid;
+    border-image: linear-gradient( lightsalmon, tomato);
+    border-image-slice: 1;
+  
+}
+#beginner{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
