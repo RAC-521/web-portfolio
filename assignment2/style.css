@@ -1,0 +1,97 @@
+body{
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.buy-now{
+    padding-top: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.carousel-indicators li{
+    height: 10px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: grey;
+}
+
+.carousel-indicators .active{
+    height: 10px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: orange;
+}
+
+.see-all{
+    color: orange;
+    font-weight: 600;
+}
+
+.price{
+    color: orange;
+    font-size: 25px;
+}
+
+.card{
+    box-shadow: 10px 5px 5px grey ;
+}
+
+.card-footer{
+    border: none;
+    background-color: white;
+}
+
+.card-deck{
+    margin-bottom: 150px;
+}
+
+.categories-bar{
+    background: linear-gradient(90deg, rgb(240, 185, 83), rgb(255, 153, 0));
+    height: 8px;
+    width: 100px;
+    border-radius: 50px;
+}
+.categories-box{
+    height: 250px;
+    width: 230px;
+    border: 1px solid lavender;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+}
+
+.pale-order{
+    height: 500px;
+    width: 700px;
+}
+
+.categories{
+    margin-bottom: 150px;
+}
+
+/*.end-section{
+    background-color: lawngreen;
+    margin-bottom: 150px;
+    height: 700px;
+    width: 2000px;
+}*/
+
+.end-sec-img{
+    height: 700px;
+    width: 100%;
+}
+.carousel-caption{
+    background-color: orange;
+}
+
+
+

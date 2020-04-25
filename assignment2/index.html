@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hot Gadgets</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">
+            <img src="images/logo.png" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="container mb-5">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators d-flex justify-content-center">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-6">
+                        <h3>MacBook Pro</h3> <br>
+                        <p>
+                            Retina Display 16 inch <br>
+                            Processor up to 8-core Intel Core i9 <br>
+                            Memory up to 64 GB <br>
+                            Graphics up to AMD Radeon Pro 5500M with 8GB of GDDR6 memory
+                        </p> <br>
+                        <button class="buy-now">BUY NOW →</button>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/banner-products/product-1.png" class="d-block w-100" alt="">
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-6">
+                        <h3>Stylish Bluetooth Speaker</h3> <br>
+                        <p>
+                            8 hours of portable playtime <br>
+                            Waterproof <br>
+                            360 degree soundstream
+                        </p> <br>
+                        <button class="buy-now">BUY NOW →</button>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/banner-products/slider-1.png" class="d-block w-100" alt="">
+                    </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-6">
+                        <h3>JBL Bluetooth Speaker</h3> <br>
+                        <p>
+                            Voice Assistant Integration <br>
+                            Waterproof <br>
+                            Auto-power off
+                        </p> <br>
+                        <button class="buy-now">BUY NOW →</button>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="images/banner-products/slider-3.png" class="d-block w-100" alt="">
+                    </div>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+      </div>
+
+      <div class="container products">
+        <div class="row">
+          <div class="col-md-6 d-flex justify-content-start">
+            <h3>Smartphones</h3>
+          </div>
+          <div class="col-md-6 d-flex justify-content-end">
+            <p class="see-all">See All</p>
+          </div>
+        </div>
+
+        <div class="card-deck">
+          <div class="card">
+            <img src="images/phone/phone-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Redmi Note 8 Pro</h5>
+              <p class="card-text">
+                4500 mAh Battery <br>
+                64 MP camera <br>
+                8 GB RAM <br>
+              </p>
+            </div>
+            <div class="card-footer">
+              <center>
+                <span class="price">$224.88</span> <br>
+                <button class="buy-now">BUY NOW →</button>
+              </center>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/phone/phone-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">iphone 11 Pro</h5>
+              <p class="card-text">
+                3046 mAh Battery <br>
+                12 MP camera <br>
+                4 GB RAM <br> 
+              </p>
+            </div>
+            <div class="card-footer">
+              <center>
+                <span class="price">$899.99</span> <br>
+                <button class="buy-now">BUY NOW →</button>
+              </center>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/phone/phone-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Samsung Galaxy Note 10+</h5>
+              <p class="card-text">
+                4300 mAh Battery <br>
+                12 MP camera <br>
+                12 GB RAM <br>
+              </p>
+            </div>
+            <div class="card-footer">
+              <center>
+                <span class="price">$669.99</span> <br>
+                <button class="buy-now">BUY NOW →</button>
+              </center>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 d-flex justify-content-start">
+            <h3>Laptop</h3>
+          </div>
+          <div class="col-md-6 d-flex justify-content-end">
+            <p class="see-all">See All</p>
+          </div>
+        </div>
+
+        <div class="card-deck">
+          <div class="card">
+            <img src="images/laptop/product-1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">ASUS VivoBook17 X705NA</h5>
+              <p class="card-text">
+                8th Gen intel core i7 <br>
+                Windows 10 Pro <br>
+                8 GB Memory <br>
+              </p>
+            </div>
+            <div class="card-footer">
+              <center>
+                <span class="price">$699</span> <br>
+                <button class="buy-now">BUY NOW →</button>
+              </center>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/laptop/product-2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Razer Blade 15</h5>
+              <p class="card-text">
+                10th Gen intel core i7 <br>
+                Windows 10 Home <br>
+                6 GB Memory <br> 
+              </p>
+            </div>
+            <div class="card-footer">
+              <center>
+                <span class="price">$1,599.99</span> <br>
+                <button class="buy-now">BUY NOW →</button>
+              </center>
+            </div>
+          </div>
+          <div class="card">
+            <img src="images/laptop/product-3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Xiaomi MI NoteBook Pro</h5>
+              <p class="card-text">
+                8th Gen intel core i7 <br>
+                Windows 10 <br>
+                8 GB Memory <br>
+              </p>
+            </div>
+            <div class="card-footer">
+              <center>
+                <span class="price">$1321.88</span> <br>
+                <button class="buy-now">BUY NOW →</button>
+              </center>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="container categories">
+        
+        <div class="row justify-content-center">
+          <div>
+            <h3>Categories</h3>
+          </div>
+        </div>
+        <div class="row justify-content-center mb-5">
+          <div class="categories-bar"></div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3 d-flex align-items-center justify-content-center">
+            <div class="categories-box d-flex align-items-center justify-content-center">
+              <div>
+                <div class="row d-flex align-items-center justify-content-center mb-3">
+                  <img src="images/Categories/bag.png" alt="">
+                </div>
+                <div class="row d-flex align-items-center justify-content-center">
+                  <h3>Bags</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="row mb-5">
+              <div class="categories-box d-flex align-items-center justify-content-center">
+                <div>
+                  <div class="row d-flex align-items-center justify-content-center mb-3">
+                    <img src="images/Categories/perfume.png" alt="">
+                  </div>
+                  <div class="row d-flex align-items-center justify-content-center">
+                    <h3>Beauty</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="categories-box d-flex align-items-center justify-content-center">
+                <div>
+                  <div class="row d-flex align-items-center justify-content-center mb-3">
+                    <img src="images/Categories/shoe.png" alt="">
+                  </div>
+                  <div class="row d-flex align-items-center justify-content-center">
+                    <h3>Shoes</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 d-flex justify-content-center">
+            <img class="pale-order" src="images/Categories/pale-order.png" alt="">
+          </div>
+        </div>
+          
+      </div>
+
+
+      
+        <div id="carouselExampleCaptions" class="carousel slide mb-5" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/currency-exchange.jpg" class="d-block end-sec-img" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h1>Shop in 8 different currencies</h1>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/customer-service.jpeg" class="d-block end-sec-img" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h1>24/7 Customer Helpline</h1>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/delivery.jpg" class="d-block end-sec-img" alt="...">
+              <div class="carousel-caption d-none d-md-block">
+                <h1>Faster Home Deliveries</h1>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      
+      
+     
+
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
